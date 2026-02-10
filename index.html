@@ -3,15 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Our Baby Registry</title>
+  <title>Welcome to Our Baby Registry</title>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <style>
-    /* Reset & basic styles */
     * { margin: 0; padding: 0; box-sizing: border-box; }
     body { font-family: 'Roboto', sans-serif; background-color: #fff8f0; color: #333; }
+
     a { text-decoration: none; color: inherit; }
 
-    /* Colors Pale Cherry Blossom */
     :root {
       --pale-cherry: #FFD7E0;
       --cherry-dark: #FF9EB3;
@@ -25,79 +24,34 @@
       border-bottom: 2px solid var(--cherry-dark);
     }
 
-    header h1 {
-      font-size: 2.5rem;
-      margin-bottom: 0.5rem;
-    }
-
-    header p {
-      font-size: 1.2rem;
-    }
+    header h1 { font-size: 2.5rem; margin-bottom: 0.5rem; }
+    header p { font-size: 1.2rem; }
 
     main {
-      max-width: 900px;
+      max-width: 800px;
       margin: 2rem auto;
       padding: 0 1rem;
-    }
-
-    section {
-      margin-bottom: 2rem;
-    }
-
-    h2 {
-      color: var(--cherry-dark);
-      margin-bottom: 1rem;
       text-align: center;
     }
 
-    .registry-list {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 1.5rem;
+    main p {
+      font-size: 1.1rem;
+      margin-bottom: 1.5rem;
+      line-height: 1.5;
     }
 
-    .item-card {
-      background-color: #fff;
-      padding: 1rem;
-      border-radius: 12px;
-      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-      text-align: center;
-      transition: transform 0.2s ease;
-    }
-
-    .item-card:hover {
-      transform: translateY(-5px);
-    }
-
-    .item-card img {
-      max-width: 100%;
-      border-radius: 8px;
-      margin-bottom: 0.5rem;
-    }
-
-    .item-card h3 {
-      margin-bottom: 0.5rem;
-      color: var(--cherry-dark);
-    }
-
-    .item-card p {
-      margin-bottom: 0.5rem;
-    }
-
-    .item-card button {
+    .btn {
       background-color: var(--cherry-dark);
       color: white;
-      border: none;
-      padding: 0.5rem 1rem;
+      padding: 0.8rem 1.5rem;
       border-radius: 8px;
-      cursor: pointer;
       font-weight: bold;
+      font-size: 1rem;
+      cursor: pointer;
       transition: background 0.2s ease;
     }
 
-    .item-card button:hover {
-      background-color: #ff7f91;
-    }
+    .btn:hover { background-color: #ff7f91; }
 
     footer {
       text-align: center;
@@ -113,55 +67,12 @@
 
   <header>
     <h1>Welcome to Our Baby Registry!</h1>
-    <p>We’re excited to share our baby journey with you. Here are some items we would love!</p>
   </header>
 
   <main>
-    <section>
-      <h2>Registry Items</h2>
-      <div class="registry-list">
-        <!-- Example item -->
-        <div class="item-card">
-          <img src="https://via.placeholder.com/250x150?text=Baby+Crib" alt="Baby Crib">
-          <h3>Baby Crib</h3>
-          <p>Safe and cozy crib for our little one.</p>
-          <button type="button" onclick="alert('Baby Crib added to registry!')">Add to Registry</button>
-        </div>
-
-        <div class="item-card">
-          <img src="https://via.placeholder.com/250x150?text=Diaper+Bag" alt="Diaper Bag">
-          <h3>Diaper Bag</h3>
-          <p>Stylish and functional bag for daily outings.</p>
-          <button type="button" onclick="alert('Diaper Bag added to registry!')">Add to Registry</button>
-        </div>
-
-        <div class="item-card">
-          <img src="https://via.placeholder.com/250x150?text=Baby+Bottles" alt="Baby Bottles">
-          <h3>Baby Bottles</h3>
-          <p>High-quality bottles for feeding time.</p>
-          <button type="button" onclick="alert('Baby Bottles added to registry!')">Add to Registry</button>
-        </div>
-
-        <div class="item-card">
-          <img src="https://via.placeholder.com/250x150?text=Baby+Clothes" alt="Baby Clothes">
-          <h3>Baby Clothes</h3>
-          <p>Soft and cute outfits for our little one.</p>
-          <button type="button" onclick="alert('Baby Clothes added to registry!')">Add to Registry</button>
-        </div>
-
-        <div class="item-card">
-          <img src="https://via.placeholder.com/250x150?text=Stroller" alt="Stroller">
-          <h3>Stroller</h3>
-          <p>Comfortable and safe stroller for walks.</p>
-          <button type="button" onclick="alert('Stroller added to registry!')">Add to Registry</button>
-        </div>
-      </div>
-    </section>
-
-    <section>
-      <h2>Contact</h2>
-      <p style="text-align:center;">Questions or messages? Email us at <a href="mailto:ourbaby@registry.com">ourbaby@registry.com</a></p>
-    </section>
+    <p>We want everyone to feel included in welcoming our baby, who is almost here! 🎀</p>
+    <p>We have made a shopping list available at our local Target, and for those who feel comfortable, you can also shop online via Amazon.</p>
+    <a href="registry.html" class="btn">View Baby Registry Items</a>
   </main>
 
   <footer>
@@ -170,4 +81,5 @@
 
 </body>
 </html>
+
 

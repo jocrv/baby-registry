@@ -11,7 +11,7 @@
     body { font-family: 'Roboto', sans-serif; background-color: #fff8f0; color: #333; }
     a { text-decoration: none; color: inherit; }
 
-    /* Color Palette */
+    /* Colors Pale Cherry Blossom */
     :root {
       --pale-cherry: #FFD7E0;
       --cherry-dark: #FF9EB3;
@@ -19,7 +19,7 @@
 
     header {
       background-color: var(--pale-cherry);
-      color: #fff;
+      color: #333;
       padding: 2rem;
       text-align: center;
       border-bottom: 2px solid var(--cherry-dark);
@@ -113,39 +113,53 @@
 
   <header>
     <h1>Welcome to Our Baby Registry!</h1>
-    <p>We're excited to share our baby journey with you. Here are some items we would love!</p>
+    <p>We’re excited to share our baby journey with you. Here are some items we would love!</p>
   </header>
 
   <main>
     <section>
-      <h2>Our Registry Items</h2>
+      <h2>Registry Items</h2>
       <div class="registry-list">
         <!-- Example item -->
         <div class="item-card">
-          <img src="https://via.placeholder.com/250x150" alt="Baby Crib">
+          <img src="https://via.placeholder.com/250x150?text=Baby+Crib" alt="Baby Crib">
           <h3>Baby Crib</h3>
           <p>Safe and cozy crib for our little one.</p>
-          <button onclick="alert('Added Baby Crib to cart!')">Add to Registry</button>
+          <button type="button" onclick="alert('Baby Crib added to registry!')">Add to Registry</button>
         </div>
 
         <div class="item-card">
-          <img src="https://via.placeholder.com/250x150" alt="Diaper Bag">
+          <img src="https://via.placeholder.com/250x150?text=Diaper+Bag" alt="Diaper Bag">
           <h3>Diaper Bag</h3>
-          <p>Stylish and functional diaper bag for daily outings.</p>
-          <button onclick="alert('Added Diaper Bag to cart!')">Add to Registry</button>
+          <p>Stylish and functional bag for daily outings.</p>
+          <button type="button" onclick="alert('Diaper Bag added to registry!')">Add to Registry</button>
         </div>
 
         <div class="item-card">
-          <img src="https://via.placeholder.com/250x150" alt="Baby Bottles">
+          <img src="https://via.placeholder.com/250x150?text=Baby+Bottles" alt="Baby Bottles">
           <h3>Baby Bottles</h3>
           <p>High-quality bottles for feeding time.</p>
-          <button onclick="alert('Added Baby Bottles to cart!')">Add to Registry</button>
+          <button type="button" onclick="alert('Baby Bottles added to registry!')">Add to Registry</button>
+        </div>
+
+        <div class="item-card">
+          <img src="https://via.placeholder.com/250x150?text=Baby+Clothes" alt="Baby Clothes">
+          <h3>Baby Clothes</h3>
+          <p>Soft and cute outfits for our little one.</p>
+          <button type="button" onclick="alert('Baby Clothes added to registry!')">Add to Registry</button>
+        </div>
+
+        <div class="item-card">
+          <img src="https://via.placeholder.com/250x150?text=Stroller" alt="Stroller">
+          <h3>Stroller</h3>
+          <p>Comfortable and safe stroller for walks.</p>
+          <button type="button" onclick="alert('Stroller added to registry!')">Add to Registry</button>
         </div>
       </div>
     </section>
 
     <section>
-      <h2>Contact Us</h2>
+      <h2>Contact</h2>
       <p style="text-align:center;">Questions or messages? Email us at <a href="mailto:ourbaby@registry.com">ourbaby@registry.com</a></p>
     </section>
   </main>
@@ -156,3 +170,4 @@
 
 </body>
 </html>
+
